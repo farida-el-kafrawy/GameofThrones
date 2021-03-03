@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/Header/HeaderComponent';
 import { SidebarComponent } from './components/Sidebar/SidebarComponent';
 import { FeedComponent } from './components/Feed/FeedComponent';
 
+
 function App() {
 
     // TODO - this is the "main" component for our app, and it will include all the global state that we care about
@@ -34,7 +35,9 @@ function App() {
 
     // TODO - pass in expanded sidebar state to components that need to know about it/update it.
     return (
+
         <div className="app">
+            <img src={require('../src/images/got.jpg').default} height="232" width="430"/>
             <HeaderComponent />
             <SidebarComponent />
             <FeedComponent />

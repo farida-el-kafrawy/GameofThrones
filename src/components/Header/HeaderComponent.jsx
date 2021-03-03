@@ -8,5 +8,6 @@ export const HeaderComponent = () => {
              E.g, a search bar, a toggle button for the side bar, or just a plain header!
         */}
         I'm the header component
+       
     </header>
 };

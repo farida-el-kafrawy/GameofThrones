@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  background-color:antiquewhite;
+  background-image:./images/gotchar.jpg;
 }
 
 code {
