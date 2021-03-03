@@ -1,7 +1,5 @@
 import React from 'react'
 import './SidebarComponent.css';
-import { Button, RadioButtonGroup, RadioButton
-} from '@brandwatch/axiom-components';
 
 // TODO - make sure SidebarComponent is expecting the right props!
 export const SidebarComponent = () => {
@@ -18,15 +16,7 @@ export const SidebarComponent = () => {
              You could even change what you can see in the search bar based on what you are searching for.
              E.g add a dropdown to determine which field you're searching on ("name"/"title"/"alias")
         */} 
-        <div className={'buttons'}> 
-      <Button
-        variant="primary"
-        size="large"
-        onClick={() => alert("primary clicked")}
-      >
-     search
-      </Button>
-    </div>
+       
         I'm the sidebar component
         <form className="search-bar"> 
         <input type="text" id="search" name="search" placeholder="Enter search..."/>
