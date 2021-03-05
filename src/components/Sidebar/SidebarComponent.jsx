@@ -1,6 +1,7 @@
 import React from 'react'
 import './SidebarComponent.css';
 
+
 // TODO - make sure SidebarComponent is expecting the right props!
 export const SidebarComponent = () => {
    
@@ -18,15 +19,24 @@ export const SidebarComponent = () => {
         */} 
        
         I'm the sidebar component
-        <form className="search-bar"> 
+        <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <form className="search-bar"> 
         <input type="text" id="search" name="search" placeholder="Enter search..."/>
         </form>
-<ul>
-    <li>Home</li>
-    <li>Houses</li>
-    <li>Characters</li>
-    <li>Books</li>
-</ul>
-    
+  <a href="#">Home</a>
+  <a href="#">Houses</a>
+  <a href="#">Books</a>
+  <a href="#">Characters</a>
+  
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+  <h2>Collapsed Sidebar</h2>
+  <p>Content...</p>
+</div>
+
+
     </div>
 };

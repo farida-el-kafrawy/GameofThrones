@@ -1,7 +1,8 @@
 /* TODO add some general header styles */
 
 .header {
-    margin: 10px;
+    margin: 0px;
     padding: 10px;
     border: 1px solid red;
+    text-align: left;
 }

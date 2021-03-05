@@ -37,8 +37,8 @@ function App() {
     return (
 
         <div className="app">
-            <img src={require('../src/images/got.jpg').default} height="232" width="430"/>
             <HeaderComponent />
+            <img src={require('../src/images/got.jpg').default} height="232" width="430"/>
             <SidebarComponent />
             <FeedComponent />
         </div>
