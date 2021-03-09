@@ -38,7 +38,7 @@ export const FeedComponent = (props) => {
               {house.name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-              Game of thrones
+              Game of Thrones
           </Typography>
           </CardContent>
       </CardActionArea>
