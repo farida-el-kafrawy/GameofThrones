@@ -38,17 +38,16 @@ export const FeedComponent = (props) => {
               {house.name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-              Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-              across all continents except Antarctica
+              Game of thrones
           </Typography>
           </CardContent>
       </CardActionArea>
       <CardActions>
           <Button size="small" color="primary">
-          Share
+          #
           </Button>
           <Button size="small" color="primary">
-          Learn More
+          #
           </Button>
       </CardActions>
      </Card>

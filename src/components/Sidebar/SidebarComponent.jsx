@@ -27,6 +27,7 @@ export const SidebarComponent = () => {
          </Button>
          
         </form>
+  <a href="#">Home</a>
   <a href="#">Houses</a>
   <a href="#">Books</a>
   <a href="#">Characters</a>
